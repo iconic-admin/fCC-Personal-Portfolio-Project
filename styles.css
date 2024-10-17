@@ -1,1 +1,16 @@
 /* CSS goes here */
+/* */
+/* */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: fixed;
+}
+
+#welcome-section {
+    height: 100vh;
+}
