@@ -114,7 +114,8 @@ h2 {
 }
 
 #projects {
-    height: 150vh;
+    height: auto;
+    min-height: 150vh;
     background-color: #E9EED9;
     width: 100%;
     display: flex;
@@ -132,6 +133,8 @@ h2 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin-top: 1px;
+    padding-top: 1px;
 }
 
 #project-image {
