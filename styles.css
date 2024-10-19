@@ -165,8 +165,19 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 2rem 20rem 5rem 20rem;
-    margin-bottom: 30;
+    margin-bottom: 0;
     color: #E9EED9;
+}
+
+@media only screen and (max-width: 1200px) {
+footer {
+    height: 400px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: nowrap;
+}
 }
 
 @media only screen and (max-width: 900px) {
@@ -195,14 +206,6 @@ footer {
     }
     #project-image {
         width: 45%;
-    }
-    footer {
-        height: 400px;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        padding: 0;
-        flex-wrap: nowrap;
     }
     #contact-name, #contact-email, #contact-phone, #contact-address {
         margin: auto;
